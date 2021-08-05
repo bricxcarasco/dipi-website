@@ -12,6 +12,11 @@ module.exports = {
   theme: {
     colors: {
       ...colors,
+      blue: {
+        light: "#85d7ff",
+        DEFAULT: "#1fb6ff",
+        dark: "#009eeb",
+      },
     },
     extend: {
       minHeight: {
