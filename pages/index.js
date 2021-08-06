@@ -19,15 +19,21 @@ export default function Index() {
             src={"/img/wealthid.jpg"}
           ></Image>
         </div>
-        <section className="pb-20 bg-white -mt-24">
+        <section
+          className="pb-20 bg-white -mt-24"
+          style={{ backgroundColor: "#FAFAFA" }}
+        >
           <br />
           <div className="container mx-auto px-2">
             <div className="flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  style={{ borderRadius: "30px" }}
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div
-                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-gray-200"
+                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 mt-5 rounded-full bg-gray-200"
                       style={{
                         backgroundColor: "#FEF9EB",
                         width: "80px",
@@ -50,10 +56,13 @@ export default function Index() {
                 </div>
               </div>
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  style={{ borderRadius: "30px" }}
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div
-                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-gray-200"
+                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 mt-5 rounded-full bg-gray-200"
                       style={{
                         backgroundColor: "#FEF9EB",
                         width: "80px",
@@ -76,12 +85,14 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  style={{ borderRadius: "30px" }}
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div
-                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-gray-200"
+                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 mt-5 rounded-full bg-gray-200"
                       style={{
                         backgroundColor: "#FEF9EB",
                         width: "80px",
@@ -106,15 +117,17 @@ export default function Index() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="pb-20 bg-white -mt-24">
+
           <div className="container mx-auto px-2">
             <div className="justify-center flex flex-wrap">
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  style={{ borderRadius: "30px" }}
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div
-                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-gray-200"
+                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 mt-5 rounded-full bg-gray-200"
                       style={{
                         backgroundColor: "#FEF9EB",
                         width: "80px",
@@ -138,10 +151,13 @@ export default function Index() {
               </div>
 
               <div className="w-full md:w-4/12 px-4 text-center">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div
+                  className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+                  style={{ borderRadius: "30px" }}
+                >
                   <div className="px-4 py-5 flex-auto">
                     <div
-                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 rounded-full bg-gray-200"
+                      className="text-yellow-400 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 mt-5 rounded-full bg-gray-200"
                       style={{
                         backgroundColor: "#FEF9EB",
                         width: "80px",
@@ -167,7 +183,7 @@ export default function Index() {
           </div>
         </section>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -61,13 +61,13 @@ export default function Navbar(props) {
                   rel="noreferrer"
                 >
                   <div className="ml-2 text-indigo-800 p-3 text-center inline-flex items-center justify-center w-12 h-12 rounded-full bg-gray-200">
-                    <span class="relative inline-block ml-8">
+                    <span className="relative inline-block ml-8">
                       <i
                         className="text-indigo-800 far fa-bell text-2xl leading-lg "
-                        style={{ color: "#F8A702" }}
+                        style={{ color: "#342E59" }}
                       />
                       <span
-                        class="absolute top-0 right-2 inline-block w-5 h-5 transform translate-x-1/2 -translate-y-1/2 text-white bg-yellow-500 rounded-full"
+                        className="absolute top-0 right-2 inline-block w-5 h-5 transform translate-x-1/2 -translate-y-1/2 text-white bg-yellow-500 rounded-full"
                         style={{ backgroundColor: "#F8A702", top: "-10px" }}
                       >
                         2
@@ -87,13 +87,13 @@ export default function Navbar(props) {
                   rel="noreferrer"
                 >
                   <div className="text-indigo-800 p-3 text-center inline-flex items-center justify-center w-12 h-12 rounded-full bg-gray-200">
-                    <span class="relative inline-block ml-8">
+                    <span className="relative inline-block ml-8">
                       <i
                         className="text-indigo-800 far fa-comment-dots text-2xl leading-lg "
-                        style={{ color: "#F8A702" }}
+                        style={{ color: "#342E59" }}
                       />
                       <span
-                        class="absolute top-0 right-2 inline-block w-5 h-5 transform translate-x-1/2 -translate-y-1/2 text-white bg-yellow-500 rounded-full"
+                        className="absolute top-0 right-2 inline-block w-5 h-5 transform translate-x-1/2 -translate-y-1/2 text-white bg-yellow-500 rounded-full"
                         style={{ backgroundColor: "#F8A702", top: "-10px" }}
                       >
                         2
@@ -111,13 +111,13 @@ export default function Navbar(props) {
                   rel="noreferrer"
                 >
                   <div className="text-indigo-800 p-3 text-center inline-flex items-center justify-center w-12 h-12 rounded-full bg-gray-200">
-                    <span class="relative inline-block ml-8">
+                    <span className="relative inline-block ml-8">
                       <i
                         className="text-indigo-800 fas fa-gift text-2xl leading-lg "
-                        style={{ color: "#F8A702" }}
+                        style={{ color: "#342E59" }}
                       />
                       <span
-                        class="absolute top-0 right-2 inline-block w-5 h-5 transform translate-x-1/2 -translate-y-1/2 text-white bg-yellow-500 rounded-full"
+                        className="absolute top-0 right-2 inline-block w-5 h-5 transform translate-x-1/2 -translate-y-1/2 text-white bg-yellow-500 rounded-full"
                         style={{ backgroundColor: "#F8A702", top: "-10px" }}
                       >
                         2
